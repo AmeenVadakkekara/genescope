@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import Navbar from './components/Navbar';
@@ -34,6 +34,7 @@ function App() {
             <Route path="/dna-tools" element={<DnaTools />} />
             <Route path="/protein-tools" element={<ProteinTools />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </Router>
@@ -42,3 +43,4 @@ function App() {
 }
 
 export default App;
+
