@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/genescope/static/css/main.e6c13ad2.css",
+    "main.js": "/genescope/static/js/main.765cf6f2.js",
+    "static/js/453.ee4172eb.chunk.js": "/genescope/static/js/453.ee4172eb.chunk.js",
+    "index.html": "/genescope/index.html",
+    "main.e6c13ad2.css.map": "/genescope/static/css/main.e6c13ad2.css.map",
+    "main.765cf6f2.js.map": "/genescope/static/js/main.765cf6f2.js.map",
+    "453.ee4172eb.chunk.js.map": "/genescope/static/js/453.ee4172eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.765cf6f2.js"
+  ]
+}
