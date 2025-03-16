@@ -31,7 +31,7 @@ A modern bioinformatics web application for DNA and protein sequence analysis.
 
 ## Deployment
 
-The application is deployed using GitHub Pages. To deploy:
+The application is deployed using Vercel, To deploy:
 ```bash
 npm run deploy
 ```
